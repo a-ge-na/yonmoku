@@ -1,0 +1,55 @@
+td  {
+  border: solid 2px #333;
+  border-radius: 4px;
+  text-align: center;
+  vertical-align: middle;
+  height: 80px;
+  width: 80px;;
+}
+
+.candidate{
+  box-shadow: inset 3px 3px 4px #e22, inset -3px -3px 4px #e22;
+}
+
+td.N{
+  background: #88e;
+}
+
+td.B{
+  background: #33e;
+}
+
+td.W{
+  background: #eee;
+}
+
+table#board{
+  margin: auto;
+}
+
+div.stock{
+  x display: inline-block;
+  border: solid 4px #888;
+  min-height:80px;
+  width: 480px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+div.token{
+  float: left;
+  background: #888;
+  border: solid thin #333;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+}
+
+div.B.token{
+  background: #33e;
+}
+div.W.token{
+  background: #eee;
+}
